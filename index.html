@@ -32,26 +32,19 @@
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-    <script src="" async defer></script>
-
-    <H1>Hello, Human :)</H1>
-    <strong>Transmition incoming...</strong>
-    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-    <div id="SamplePlayerDivID"></div>
-    <script type="text/javascript">
-  var options = {
-    width: 854,
-    height: 480,
-    channel: "peepoplanet",
-
-  };
-  var player = new Twitch.Player("SamplePlayerDivID", options);
-  player.setVolume(0.5);
-</script>
+  <H1>Hello, Human :)</H1>
+  <strong>Transmition incoming...</strong>
+  <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+  <div id="SamplePlayerDivID"></div>
+  <script type="text/javascript">
+    var options = {
+      width: 854,
+      height: 480,
+      channel: "peepoplanet"
+    };
+    var player = new Twitch.Player("SamplePlayerDivID", options);
+    player.setVolume(0.5);
+  </script>
 </body>
 
 </html>
